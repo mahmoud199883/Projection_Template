@@ -1,0 +1,68 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;  /* padding     border*/
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navigation bar */
+
+.nav-link
+{
+    color: white !important;
+    padding: 20px 15px;
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+.navbar
+{
+    border-color: gray !important;
+}
+
+
+/* header data */
+
+
+.header-back
+{
+    background-image: url(../images/banner.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.overlay
+{
+    background-color: rgba(75, 75, 93, 0.85);
+    height: 100vh;
+}
+.header-data i
+{
+    color: #6cc091 !important;
+}
+
+
+
+/* footer stlyling */
+
+.myfooter
+{
+    height: 100vh;
+    background-color: #6cc091;
+}
+input::placeholder
+{
+    color: white !important;
+}
+textarea::placeholder
+{
+    color: white !important;
+}
+.mybtn
+{
+    padding: 10px 20px;
+}
